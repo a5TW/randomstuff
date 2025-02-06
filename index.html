@@ -8,46 +8,27 @@
 <style>
 body {
   padding: 25px;
-  background-color: white;
-  color: black;
+  background-color: #242124;
+  color: white;
   font-size: 25px;
 }
 
-.dark-mode {
-  background-color: #242124;
-  color: white;
+.light-mode {
+  background-color: white;
+  color: black;
 }
 </style>
 </head>
 <body>
 
-<button onclick="darkmode()">Toggle Dark Mode</button>
+<button onclick="lightmode()">Toggle Dark Mode</button>
 
 <script>
 function darkmode() {
    var element = document.body;
-   element.classList.toggle("dark-mode");
+   element.classList.toggle("light-mode");
 }
 </script>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  padding: 25px;
-  background-color: white;
-  color: black;
-  font-size: 25px;
-}
-
-.matrix {
-  background-color: black;
-  color: gren;
-}
-</style>
-</head>
-<body>
-
-<button onclick="matrix()">Toggle Matrix Mode</button>
 
 <script>
 function matrix() {
