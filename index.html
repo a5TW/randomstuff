@@ -3,8 +3,6 @@
 <body>
 
 <!-- theme start -->
-<h6>modes:</h6>
-
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
@@ -30,7 +28,7 @@ function lightmode() {
 </head>
 <body>
 
-<button onclick="lightmode()">Toggle Light/Dark Mode</button>
+
 <!-- theme end -->
 
 <!-- button config start -->
@@ -54,6 +52,18 @@ function lightmode() {
   background-color: white; 
   color: black;
 }
+
+.buttonDarkMode {
+  background-color: #1c1c1c;
+  color: white;
+}
+
+.buttonDarkMode:hover {
+  background-color: white; 
+  color: black;
+}
+
+.buttonDarkMode {border-radius: 50%;}
 </style>
 <!-- button config end -->
 
@@ -63,5 +73,7 @@ function lightmode() {
 
 <button class="button buttonRed"; onclick="window.location.href='https://a5tw.github.io/randomstuff/cells_in_a_nutshell-6-blackedout.pdf';"/>cells_in_a_nutshell-6</button> <!-- cells in a nutshell pdf button -->
 
+<button class="button buttonDarkMode"; onclick="lightmode()">Toggle Light/Dark Mode</button>
+  
 </body>
 </html>
