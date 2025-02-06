@@ -12,7 +12,7 @@ body {
 }
 
 .dark-mode {
-  background-color: rgb(105,105,105);
+  background-color: #242124;
   color: white;
 }
 </style>
@@ -25,6 +25,32 @@ body {
 function myFunction() {
    var element = document.body;
    element.classList.toggle("dark-mode");
+}
+</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.matrix {
+  background-color: black;
+  color: gren;
+}
+</style>
+</head>
+<body>
+
+<button onclick="myFunction()">Toggle Matrix Mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("matrix");
 }
 </script>
 
