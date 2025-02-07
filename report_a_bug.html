@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<body>
+  
+<!-- theme start -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {
+  padding: 25px;
+  background-color: #242124;
+  color: white;
+  font-size: 25px;
+  font-family: "Verdana", sans-serif;
+  .buttonDarkMode {
+  background-color: #1c1c1c;
+  color: white;
+  padding: 16px 16px;
+  text-align: center;
+  margin: 4px 4px;
+  float: right;
+  border-radius: 50%;
+  border: none;
+  width: 60px;
+  height: 60px;
+}
+}
+
+
+
+.light-mode {
+  background-color: white;
+  color: black;
+
+  .buttonDarkMode {
+  background-color: #e3e3e3;
+  color: black;
+  padding: 16px 16px;
+  text-align: center;
+  margin: 4px 4px;
+  float: right;
+  border-radius: 50%;
+  border: none;
+  width: 60px;
+  height: 60px;
+} 
+}
+</style>
+  <script>
+function lightmode() {
+   var element = document.body;
+   element.classList.toggle("light-mode");
+}
+</script>
+</head>
+<body>
+
+<link rel="icon" type="image/x-icon" href="img/question_mark_b.png">
+  
+<!-- theme end -->
+
+<!-- button config start -->
+<style>
+.button {
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.buttonRed {
+  background-color: #f44336;
+  color: white;
+  border: 2px solid #f44336;
+}
+
+.buttonRed:hover {
+  background-color: white; 
+  color: black;
+}
+
+.buttonMenu {
+  background-color: #242124;
+  color: white;
+}
+
+.buttonMenu:hover {
+  background-color: #0a090a; 
+  color: white;
+}
+</style>
+<!-- button config end -->
+
+<!-- content start -->
+<button class="button buttonMenu"; onclick="window.location.href='https://a5tw.github.io/randomstuff';"/>Home</button>
+<button class="button buttonMenu"; onclick="window.location.href='https://a5tw.github.io/randomstuff/report_a_bug.html';"/>Report a Bug</button>
+<button style="text-align: center;" class="button buttonDarkMode"; onclick="lightmode()" title="Dark Mode/Light Mode Toggle";>(🌣)</button>
+  
+<h1>bug reporting process</h1>
+
+<p>its unfinished</br>go to the homepage</p>
+  
+</body>
+</html>
